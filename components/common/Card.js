@@ -1,13 +1,14 @@
 import Link from "next/link"
 import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
+import Image from "next/image"
 
 export const Card = ({ data, caption, show, path, serviceCard, Services, showcase, serviseText }) => {
   return (
     <>
       <div className='card'>
         <div className='card-img'>
-          <img src={data.cover} style={{height:"360px"}} alt={data.title} />
+          <Image src={data.cover} style={{height:"360px"}} alt={data.title} />
         </div>
         <div className={`card-details ${serviseText==="true"?"serviseText":null}`}>
           {
