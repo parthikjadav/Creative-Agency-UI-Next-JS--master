@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.input-contact{
+  @apply rounded-xl bg-slate-200 text-black
+}
+
+.select-c{
+  padding: 15px;
+  margin-top: 14px;
+}
+
+.Success{
+  @apply text-green-500 
+}
+
+.Error {
+  @apply text-red-600
+}
+
+.footer-copy{
+  text-align: center !important;
+}
+
+.flex-center{
+  @apply flex justify-center items-center
+}
+
+.serviseText{
+  margin-top: 80px;
+}
+
+@media (min-width:767px) {
+  .menu-icon {
+    display: none;
+  }
+
+}
+
+@media (max-width:992px) {
+  .hero-title{
+    font-size: 80px !important;
+  }
+  .title-logo{
+    font-size: 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .hero-title{
+    font-size: 60px !important;
+  }
+}
+
+@media (max-width:545px) {
+  .hero-title{
+    font-size: 35px !important;
+  }
+   .title-logo{
+    font-size: 30px;
+  }
+  .brand-content .images {
+    width: 200px;
+    margin: 0px auto;
+  }
+}
