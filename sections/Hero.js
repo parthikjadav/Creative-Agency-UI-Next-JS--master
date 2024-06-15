@@ -6,6 +6,7 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
+import Pricing from "./Pricing"
 
 const Hero = () => {
   return (
@@ -43,6 +44,7 @@ const Hero = () => {
       <Banner />
       <ShowCase />
       <Brand />
+      <Pricing/>
       <Testimonial />
 
       {/* <div className='text-center'>
