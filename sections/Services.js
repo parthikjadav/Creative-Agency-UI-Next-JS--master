@@ -1,4 +1,5 @@
 import { expertise } from "@/assets/data/dummydata"
+import SeoServices from "@/components/SeoServices"
 import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
@@ -18,6 +19,7 @@ const Services = () => {
               <Card data={item} Services={"/showcase"} key={item.id} caption={item.post} show={true} />
             ))}
           </div>
+          <SeoServices />
         </div>
       </section>
     </>

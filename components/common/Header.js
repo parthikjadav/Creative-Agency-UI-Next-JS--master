@@ -27,7 +27,7 @@ const Header = () => {
               Home
             </Link>
             <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
-              Agency
+              Company
             </Link>
             {/* <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
               Team
@@ -45,7 +45,7 @@ const Header = () => {
               Contact
             </Link>
             <Link href='/contact' >
-            <button className='button-primary'>book a consultation</button>
+              <button className='button-primary'>book a consultation</button>
             </Link>
           </nav>
           <button className="menu-icon" onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>

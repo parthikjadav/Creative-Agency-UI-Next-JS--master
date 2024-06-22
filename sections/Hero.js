@@ -14,7 +14,9 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <TitleLogo title='CANADA GO ONLINE' caption='' className='logobg' />
-          <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
+          <h1 className='hero-title' style={{ textTransform: "uppercase" }}>We help to grow Businesses</h1>
+          <h5 className='sub-title' style={{ textTransform: "uppercase" }}>Budget friendly
+            Website design & development and Digital Marketig</h5>
 
           <div className='sub-heading'>
             <TitleSm title='WEB DEVELOPMENT' /> <span>.</span>
@@ -26,8 +28,8 @@ const Hero = () => {
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='The last digital agency you ll ever need' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
+            <Title title='Let’s make your brand shine through the noise.' />
+            <p>In a crowded marketplace, standing out is essential. At CANADA GO ONLINE, we specialize in cutting through the noise to make your brand shine. With our innovative strategies and creative solutions, we elevate your brand's visibility and impact, ensuring it captures the attention it deserves. Join us and watch your brand rise above the competition.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
@@ -43,8 +45,8 @@ const Hero = () => {
       <Expertise />
       <Banner />
       <ShowCase />
-      <Brand />
-      <Pricing/>
+      {/* <Brand /> */}
+      <Pricing />
       <Testimonial />
 
       {/* <div className='text-center'>

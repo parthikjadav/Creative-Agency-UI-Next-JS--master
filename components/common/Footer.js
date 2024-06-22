@@ -13,7 +13,7 @@ const Footer = () => {
               <TitleLogo title='CGO' caption='' className='logobg' />
               <br />
               <span>
-                Questions? Reach us <br /> 24/7 
+                Questions? Reach us <br /> 24/7
               </span>
               <br />
               <br />
@@ -30,7 +30,7 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/agency'>About agency</Link>
+                <Link href='/agency'>About Company</Link>
               </li>
               <li>
                 <Link href='/showcase'>Showcase</Link>

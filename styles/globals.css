@@ -10,6 +10,44 @@ body{
     box-sizing: border-box;
 }
 
+.chat-box{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #059669;
+}
+
+.section-title{
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0px;
+  color: #00dc93;
+}
+
+.sub-text{
+  text-align: center;
+  font-size: 40px;
+  padding: 10px 30%;
+}
+
+.seo-card{
+  min-width: 300px !important;
+}
+
+
+.sub-title{
+  font-size: 26px;
+  padding: 20px 0px;
+}
+
 .input-contact{
   @apply rounded-xl bg-slate-200 text-black
 }
@@ -53,17 +91,25 @@ body{
   .title-logo{
     font-size: 40px;
   }
+  .sub-title{
+    font-size: 20px;
+    padding: 50px 0px;
+  }
 }
 
 @media (max-width:767px) {
   .hero-title{
     font-size: 60px !important;
   }
+   .sub-title{
+    font-size: 18px;
+    padding: 0px 0px;
+  }
 }
 
 @media (max-width:545px) {
   .hero-title{
-    font-size: 35px !important;
+    font-size: 50px !important;
   }
    .title-logo{
     font-size: 30px;

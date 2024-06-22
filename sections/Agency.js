@@ -9,9 +9,9 @@ const Agency = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='ABOUT AGENCY' /> <br />
+            <TitleSm title='ABOUT COMPANY' /> <br />
             <br />
-            <Title title='The last digital agency you will ever need!' className='title-bg' />
+            <Title title='Turning your business ideas into smart digital products since 2020' className='title-bg' />
           </div>
 
           <div className='content flex1'>
@@ -48,14 +48,14 @@ const Agency = () => {
               <TitleSm title='Our mission' />
               <br />
               <p className='misson-p'>
-                Our mission at Canada Go Online is to empower businesses by providing exceptional web development services that foster growth and innovation. We believe that a well-crafted website is a powerful tool that can elevate your brand, engage your audience, and streamline your operations. Our goal is to build robust, user-friendly, and aesthetically pleasing websites that serve as a catalyst for your business success. 
-                </p>
+                Our mission at Canada Go Online is to empower businesses by providing exceptional web development services that foster growth and innovation. We believe that a well-crafted website is a powerful tool that can elevate your brand, engage your audience, and streamline your operations. Our goal is to build robust, user-friendly, and aesthetically pleasing websites that serve as a catalyst for your business success.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <Brand />
+      {/* <Brand /> */}
       <Testimonial />
       <Banner />
       <br />

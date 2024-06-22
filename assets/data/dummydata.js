@@ -6,7 +6,7 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "5+ years of market experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "50+ cuccessful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -53,7 +53,7 @@ export const testimonial = [
     name: "Saul Goodman",
     cover: "https://flowndeveloper.com/wp-content/uploads/2023/10/ChIJTXXJ8i13AjoRmOW4sgK7xKw_9677026a55e478a58cf1e102f228b4cb.jpg.webp",
     post: "Designer",
-    desc: "canada go online has been a great asset to our team, with bigger concepts like helping us build our brand and then also with everyday tasks such as creating social graphics and building our online presence. Would definitely recommend their team to companies who are looking to grow their business!",
+    desc: "canada go online has been a great asset to our team, with bigger concepts like helping us build our brand and then also with everyday tasks such as creating social graphics and building our online presence. Would definitely recommend their team to Companys who are looking to grow their business!",
   },
   {
     id: 2,
@@ -156,7 +156,7 @@ export const showcase = [
     website: "https://mee4u.com/"
   },
   {
-    id:11,
+    id: 11,
     title: "Forever Young Dentures",
     cover: "https://canadagoonline.com/img/forever.png",
     catgeory: "MARKETING",
