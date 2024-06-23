@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
-import GoogleAdsDetails from './GoogleAdsDetails'
+import GoogleAdsDetails from './Services/GoogleAdsDetails'
+import AdTypes from './Services/AdTypes'
 
 const SeoServices = () => {
     return (
@@ -68,6 +69,7 @@ const SeoServices = () => {
                 </div>
             </section>
             <GoogleAdsDetails />
+            <AdTypes/>
         </div>
     )
 }

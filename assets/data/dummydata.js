@@ -36,6 +36,34 @@ export const features = [
   { bold: "", text: "Total Customization" }
 ];
 
+export const AdData = [
+  {
+    image:"",
+    title:"",
+    text:""
+  },
+  {
+    image: "",
+    title: "",
+    text: ""
+  },
+  {
+    image: "",
+    title: "",
+    text: ""
+  },
+  {
+    image: "",
+    title: "",
+    text: ""
+  },
+  {
+    image: "",
+    title: "",
+    text: ""
+  },
+]
+
 
 export const expertise = [
   {
