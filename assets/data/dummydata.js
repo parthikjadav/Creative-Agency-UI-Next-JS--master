@@ -221,10 +221,10 @@ export const showcase = [
   },
   {
     id: 9,
-    title: "Thisisdash",
-    cover: "https://canadagoonline.com/img/portfolio/p-12.png",
+    title: "Auto Glow",
+    cover: "https://i.pinimg.com/736x/fc/b4/82/fcb482b15ed425890cb7b87ab4f11078.jpg",
     catgeory: "WEB APP",
-    website: "https://thisisdash.com/"
+    website: "https://autoglowing.com/"
   },
   {
     id: 10,
