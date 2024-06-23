@@ -38,32 +38,66 @@ export const features = [
 
 export const AdData = [
   {
-    image:"",
-    title:"",
-    text:""
+    image:"https://gemcreatives.ca/wp-content/uploads/2024/04/benefits-of-google-shopping-ads.webp",
+    title:"SHOPPING ADS",
+    text:"Shopping ads, also known as product listing ads (PLAs), are a type of online advertising that allows businesses to promote their products directly within search engine results."
   },
   {
-    image: "",
-    title: "",
-    text: ""
+    image: "https://gemcreatives.ca/wp-content/uploads/2024/04/mid-roll-video-ad.jpg",
+    title: "VIDEO ADS",
+    text: "Video ads are a form of digital advertising that utilizes video content to promote a product, service, or brand. Commonly used on various online platforms and social media channels"
   },
   {
-    image: "",
-    title: "",
-    text: ""
+    image: "https://gemcreatives.ca/wp-content/uploads/2024/04/Vector-Smart-Object112_Google-Search-Ads.webp",
+    title: "GOOGLE SEARCH ADS",
+    text: "Google Search Ads are a form of online advertising provided by Google Ads, the advertising platform of Google. These ads appear on the Google Search Engine Results."
   },
   {
-    image: "",
-    title: "",
-    text: ""
+    image: "https://gemcreatives.ca/wp-content/uploads/2024/04/04_15_12-Step-Guide-to-Local-Search-Maps-Ads_01.jpg",
+    title: "LOCAL SEARCH ADS",
+    text: "Local Search Ads are a specific type of online advertising designed to promote local businesses and reach users in a specific geographical area."
   },
   {
-    image: "",
-    title: "",
-    text: ""
+    image: "https://gemcreatives.ca/wp-content/uploads/2024/04/screen_ads.png",
+    title: "DISPLAY ADS",
+    text: "Display ads are a type of online advertising that includes visual elements, such as images, graphics, or videos, to convey a message and promote a product, service, or brand."
   },
 ]
 
+export const AdsProcess =[
+  {
+    title:"Assessment",
+    text:"Understand your needs, goals, and target audience."
+  },
+  {
+    title: "Strategy",
+    text: "Develop a tailored advertising strategy within your budget."
+  },
+  {
+    title: "Setup",
+    text: "Launch targeted campaigns across chosen platforms."
+  },
+  {
+    title: "Optimization",
+    text: "Constantly monitor and refine campaigns for optimal performance."
+  },
+  {
+    title: "Reporting",
+    text: "Provide transparent, regular reports with insights and recommendations."
+  },
+  {
+    title: "Feedback",
+    text: "Encourage open communication for continuous refinement."
+  },
+  {
+    title: "Adaptation",
+    text: "Stay agile, adapting strategies to market changes and consumer behavior."
+  },
+  {
+    title: "Continuous Improvement",
+    text: "Consistently refine and explore new opportunities for ongoing success."
+  },
+]
 
 export const expertise = [
   {
