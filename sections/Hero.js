@@ -7,6 +7,7 @@ import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
 import Pricing from "./Pricing"
+import Features from "@/components/Features"
 
 const Hero = () => {
   return (
@@ -46,6 +47,7 @@ const Hero = () => {
       <Banner />
       <ShowCase />
       {/* <Brand /> */}
+      <Features/>
       <Pricing />
       <Testimonial />
 

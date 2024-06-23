@@ -36,6 +36,27 @@ body{
   padding: 100px 0px;
 }
 
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.ul-features{
+  line-height: 40px;
+  margin: 0px auto;
+}
+
+.li-features{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .sub-text{
   text-align: center;
   font-size: 40px;

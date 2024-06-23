@@ -21,6 +21,22 @@ export const home = [
     title: "Customer satisfaction is our top priority",
   },
 ]
+
+export const features = [
+  { bold: "24/7", text: "Availability" },
+  { bold: "55+", text: "Professional Website Developers" },
+  { bold: "22+", text: "Expert Designers" },
+  { bold: "20+", text: "Marketing Experts" },
+  { bold: "99%", text: "Response Rate" },
+  { bold: "", text: "Multiple Revisions" },
+  { bold: "98%", text: "Satisfaction Rate" },
+  { bold: "Safe & Secure", text: "Payment Methods" },
+  { bold: "", text: "Post-Project Support" },
+  { bold: "Budget-Friendly", text: "Prices" },
+  { bold: "", text: "Total Customization" }
+];
+
+
 export const expertise = [
   {
     id: 1,
