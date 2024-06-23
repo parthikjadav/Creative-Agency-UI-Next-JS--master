@@ -2,10 +2,12 @@ import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import Chat from "../Chat"
 
 const Footer = () => {
   return (
     <>
+      <Chat />
       <footer>
         <div className='container'>
           <div className='grid-4'>

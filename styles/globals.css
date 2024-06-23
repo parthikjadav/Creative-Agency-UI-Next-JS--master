@@ -32,6 +32,10 @@ body{
   color: #00dc93;
 }
 
+.py{
+  padding: 100px 0px;
+}
+
 .sub-text{
   text-align: center;
   font-size: 40px;
