@@ -11,7 +11,7 @@ const Expertise = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='Our expertise' />
-            <p>Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor.</p>
+            <p>At CGO, we specialize in creating dynamic, user-friendly websites that are tailored to meet the unique needs of your business.</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

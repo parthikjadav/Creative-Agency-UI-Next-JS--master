@@ -14,9 +14,9 @@ const Footer = () => {
             <div className='logo'>
               <TitleLogo title='CGO' caption='' className='logobg' />
               <br />
-              <span>
-                Questions? Reach us <br /> 24/7
-              </span>
+              {/* <span>
+                Questions? Reach us <br /> 
+              </span> */}
               <br />
               <br />
 

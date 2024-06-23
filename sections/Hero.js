@@ -16,7 +16,7 @@ const Hero = () => {
         <div className='container'>
           <TitleLogo title='CANADA GO ONLINE' caption='' className='logobg' />
           <h1 className='hero-title' style={{ textTransform: "uppercase" }}>We help to grow Businesses</h1>
-          <h5 className='sub-title' style={{ textTransform: "uppercase" }}>Budget friendly
+          <h5 className='sub-title ajsufdg' style={{ textTransform: "uppercase" }}>Budget friendly
             Website design & development and Digital Marketig</h5>
 
           <div className='sub-heading'>

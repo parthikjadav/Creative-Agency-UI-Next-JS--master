@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "50+ cuccessful cases in portfolio",
+    title: "50+ successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -23,10 +23,10 @@ export const home = [
 ]
 
 export const features = [
-  { bold: "24/7", text: "Availability" },
-  { bold: "55+", text: "Professional Website Developers" },
-  { bold: "22+", text: "Expert Designers" },
-  { bold: "20+", text: "Marketing Experts" },
+  { bold: "7 ", text: " Day's Availability" },
+  { bold: "", text: "Professional Website Developers" },
+  { bold: "", text: "Expert Designers" },
+  { bold: "", text: "Marketing Experts" },
   { bold: "99%", text: "Response Rate" },
   { bold: "", text: "Multiple Revisions" },
   { bold: "98%", text: "Satisfaction Rate" },
