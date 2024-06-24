@@ -21,7 +21,7 @@ const Footer = () => {
               <br />
 
               {/* <div>Phone:</div> */}
-              <div>+1 6479143529</div>
+              <div>+1 647 914 3529</div>
               {/* <div>Email:</div> */}
               <div>info@canadagoonline.com</div>
               <br />

@@ -120,6 +120,10 @@ body{
     font-size: 20px;
     padding: 50px 0px;
   }
+  .ajsufdg{
+    font-size: 20px !important;
+    padding: 0px !important;
+  }
 }
 
 @media (max-width:767px) {

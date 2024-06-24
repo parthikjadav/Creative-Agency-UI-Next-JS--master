@@ -80,7 +80,7 @@ const Contact = () => {
               <div className="contact-deatils">
                 <div className="box">
                   <FiHeadphones size={30} className="icons" />
-                  <h3>+1 6479143529</h3>
+                  <h3>+1 647 914 3529</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className="box">
@@ -107,17 +107,19 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder="John Deo"
+                      required
                     />
                   </div>
                   <div className="inputs">
                     <span>Email</span>
                     <input
-                      type="text"
+                      type="email"
                       name="email"
                       className="input-contact"
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="google@gmail.com"
+                      required
                     />
                   </div>
                 </div>
@@ -131,6 +133,7 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder="+1 888-5449455"
+                      required
                     />
                   </div>
                   <div className="inputs">
@@ -168,7 +171,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="inputs">
-                  <span>Tell Us A Bit About Your Project*</span>
+                  <span>Write if you have any other question.</span>
                   <textarea
                     name="projectDetails"
                     cols="10"
@@ -177,6 +180,7 @@ const Contact = () => {
                     value={formData.projectDetails}
                     onChange={handleChange}
                     placeholder="Write Your Message Here..."
+                    required
                   ></textarea>
                 </div>
                 <p style={{padding:"20px 0px"}} className="">

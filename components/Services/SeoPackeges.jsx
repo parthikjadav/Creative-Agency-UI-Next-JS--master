@@ -20,7 +20,7 @@ const SeoPackeges = () => {
                       $250
                   </p>
                   <ul className="features">
-                      <li><i className="fa-solid fa-check"></i> <strong>5 Keywords</strong></li>
+                      <li><i className="fa-solid fa-check"></i> <strong>10 Keywords</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>Keyword Research</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>On-Page Optimization</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>Website Audit</strong></li>
@@ -40,7 +40,7 @@ const SeoPackeges = () => {
                       $350
                   </p>
                   <ul className="features">
-                      <li><i className="fa-solid fa-check"></i> <strong>10 Keywords</strong></li>
+                      <li><i className="fa-solid fa-check"></i> <strong>15 Keywords</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>All services from the Basic SEO Package</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>Competitor Analysis</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>Backlink Analysis</strong></li>
@@ -60,7 +60,7 @@ const SeoPackeges = () => {
                       $550
                   </p>
                   <ul className="features">
-                      <li><i className="fa-solid fa-check"></i> <strong>15 Keywords</strong></li>
+                      <li><i className="fa-solid fa-check"></i> <strong>20 Keywords</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>All services from the Basic and Advanced SEO Packages</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>Content Strategy Development</strong></li>
                       <li><i className="fa-solid fa-check"></i> <strong>Content Creation</strong></li>

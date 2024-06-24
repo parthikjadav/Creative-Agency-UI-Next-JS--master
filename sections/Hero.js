@@ -15,9 +15,9 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <TitleLogo title='CANADA GO ONLINE' caption='' className='logobg' />
-          <h1 className='hero-title' style={{ textTransform: "uppercase" }}>We help to grow Businesses</h1>
-          <h5 className='sub-title ajsufdg' style={{ textTransform: "uppercase" }}>Budget friendly
-            Website design & development and Digital Marketig</h5>
+          <h1 className='hero-title px-20' style={{ textTransform: "uppercase",fontSize:"65px" }}>We help to grow Businesses</h1>
+          <h5 className='sub-title ajsufdg py-10' style={{ textTransform: "uppercase",fontSize:"30px"}}>Budget friendly
+            Website design & development and Digital Marketing</h5>
 
           <div className='sub-heading'>
             <TitleSm title='WEB DEVELOPMENT' /> <span>.</span>
