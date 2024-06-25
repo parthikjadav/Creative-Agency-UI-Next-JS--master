@@ -68,7 +68,10 @@ const Package = () => {
                   </Link>
               </div>
           </section>
-          <GoogleAdsDetails image={"https://gemcreatives.ca/wp-content/uploads/2024/04/Group-1-4.png"} subTitle={"What do SEO services do for your Business?"} disc="CGO propels your business forward with SEO Services, guaranteeing accelerated growth within days. Harness the power of our expertise for swift and impactful results in the digital landscape. SEO is basically a step-by-step development of your business to compete with all of your business competitors to place you in the Google ranking. This needs proper keyword research related to your business as per the clicks and research of the target audience related to that particular business." title={"PERSONALIZED WEBSITE SEO"} />
+          <GoogleAdsDetails image={"https://gemcreatives.ca/wp-content/uploads/2024/04/1675128504116.png"} subTitle={"Elevate your online visibility"} disc="Enhance your online presence, generate more leads, and increase sales with our expert Google Ads ManaCGOent.
+We start each collaboration with a thorough discussion to understand your needs and goals. Then, we develop a PPC strategy designed to grow your business and drive profitability, all within your advertising budget. Our primary focus is on maximizing ROI rather than just increasing clicks.
+Our tailored approach to managing Google Ads campaigns is specifically designed for local businesses in Canada.
+" title={"PERSONALIZED ADVERTISING"} />
           <section className="pricing-plans pt-0">
               <div className='section-title'>
                   PACKAGES
@@ -137,10 +140,7 @@ const Package = () => {
                   </Link>
               </div>
           </section>
-          <GoogleAdsDetails image={"https://gemcreatives.ca/wp-content/uploads/2024/04/1675128504116.png"} subTitle={"Elevate your online visibility"} disc="Enhance your online presence, generate more leads, and increase sales with our expert Google Ads ManaCGOent.
-We start each collaboration with a thorough discussion to understand your needs and goals. Then, we develop a PPC strategy designed to grow your business and drive profitability, all within your advertising budget. Our primary focus is on maximizing ROI rather than just increasing clicks.
-Our tailored approach to managing Google Ads campaigns is specifically designed for local businesses in Canada.
-" title={"PERSONALIZED ADVERTISING"} />
+          <GoogleAdsDetails image={"https://gemcreatives.ca/wp-content/uploads/2024/04/Group-1-4.png"} subTitle={"What do SEO services do for your Business?"} disc="CGO propels your business forward with SEO Services, guaranteeing accelerated growth within days. Harness the power of our expertise for swift and impactful results in the digital landscape. SEO is basically a step-by-step development of your business to compete with all of your business competitors to place you in the Google ranking. This needs proper keyword research related to your business as per the clicks and research of the target audience related to that particular business." title={"PERSONALIZED WEBSITE SEO"} />
 <Testimonial/>
     </>
   )
