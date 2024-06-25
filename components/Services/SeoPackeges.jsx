@@ -5,7 +5,7 @@ import GoogleAdsDetails from './GoogleAdsDetails'
 const SeoPackeges = () => {
   return (
     <div>
-          <section className="pricing-plans pt-0">
+          {/* <section className="pricing-plans pt-0">
               <div className='section-title'>
                   PACKAGES
               </div>
@@ -72,8 +72,8 @@ const SeoPackeges = () => {
                       <button className="cta-btn">SELECT</button>
                   </Link>
               </div>
-          </section>
-          <GoogleAdsDetails image={"https://gemcreatives.ca/wp-content/uploads/2024/04/Group-1-4.png"} subTitle={"What do SEO services do for your Business?"} disc="CGO propels your business forward with SEO Services, guaranteeing accelerated growth within days. Harness the power of our expertise for swift and impactful results in the digital landscape. SEO is basically a step-by-step development of your business to compete with all of your business competitors to place you in the Google ranking. This needs proper keyword research related to your business as per the clicks and research of the target audience related to that particular business." title={"PERSONALIZED WEBSITE SEO"} />
+          </section> */}
+          {/* <GoogleAdsDetails image={"https://gemcreatives.ca/wp-content/uploads/2024/04/Group-1-4.png"} subTitle={"What do SEO services do for your Business?"} disc="CGO propels your business forward with SEO Services, guaranteeing accelerated growth within days. Harness the power of our expertise for swift and impactful results in the digital landscape. SEO is basically a step-by-step development of your business to compete with all of your business competitors to place you in the Google ranking. This needs proper keyword research related to your business as per the clicks and research of the target audience related to that particular business." title={"PERSONALIZED WEBSITE SEO"} /> */}
     </div>
   )
 }

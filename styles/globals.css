@@ -102,7 +102,7 @@ body{
   margin-top: 80px;
 }
 
-@media (min-width:767px) {
+@media (min-width:1080px) {
   .menu-icon {
     display: none;
   }
