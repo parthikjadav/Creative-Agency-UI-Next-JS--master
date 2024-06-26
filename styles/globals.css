@@ -167,6 +167,9 @@ html{
     max-width: 300px;
     width: 200px;
    }
+   .sub-heading{
+    display: none !important;
+   }
 }
 
 .pricing-plans {
