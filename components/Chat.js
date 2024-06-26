@@ -20,7 +20,7 @@ const Chat = () => {
                         WhatsApp
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
-                    <a href='tel:+918849547853'>
+                    <a href='tel:+16479143529'>
                         <button type="button" data-tooltip-target="tooltip-copy" data-tooltip-placement="left" class="flex justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-green-600 rounded-full border border-gray-200 dark:border-gray-600 dark:hover:text-white shadow-sm dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400">
                             <Image src={phoneSvg} width={22} height={22} alt='svg phone' />
                             <span class="sr-only">Phone</span>

@@ -10,6 +10,10 @@ body{
     box-sizing: border-box;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 .chat-box{
   position: fixed;
   bottom: 5%;
@@ -138,7 +142,8 @@ body{
 
 @media (max-width:545px) {
   .hero-title{
-    font-size: 50px !important;
+    font-size: 28px !important;
+    padding: 0px 20px;
   }
    .title-logo{
     font-size: 30px;
@@ -147,6 +152,21 @@ body{
     width: 200px;
     margin: 0px auto;
   }
+  .section-title{
+    font-size: 30px;
+  }
+  .sub-text{
+    font-size: 30px !important;
+    padding: 0px 20px !important;
+  }
+  .contact .right .inputs{
+    display: flex;
+    flex-direction: column;
+  }
+   .contact .right .inputs input,select{
+    max-width: 300px;
+    width: 200px;
+   }
 }
 
 .pricing-plans {
