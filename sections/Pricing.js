@@ -8,7 +8,7 @@ const Pricing = () => {
               <div className="pricing-card basic">
                   <div className="heading">
                       <h4>Starter Plan</h4>
-                      <p>for small websites or blogs</p>
+                      <span className='text-gray-300'>for small websites or blogs</span>
                   </div>
                   <p className="price">
                       $399
@@ -30,7 +30,7 @@ const Pricing = () => {
               <div className="pricing-card standard">
                   <div className="heading">
                       <h4>Premium Plan</h4>
-                      <p>for medium-sized businesses</p>
+                      <span className='text-gray-300'>for medium-sized businesses</span>
                   </div>
                   <p className="price">
                       $599
@@ -53,7 +53,7 @@ const Pricing = () => {
               <div className="pricing-card premium">
                   <div className="heading">
                       <h4>Advanced Plan</h4>
-                      <p>for large-scale businesses</p>
+                      <span className='text-gray-300'>for large-scale businesses</span>
                   </div>
                   <p className="price">
                       $999
@@ -76,7 +76,7 @@ const Pricing = () => {
               <div className="pricing-card premium">
                   <div className="heading">
                       <h4>Customized Plan</h4>
-                      <p>tailored to your specific needs</p>
+                      <span className='text-gray-300'>tailored to your specific needs</span>
                   </div>
                   <p className="price">
                       $??

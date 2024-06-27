@@ -22,7 +22,7 @@ export const Card = ({ data, caption, show, path, serviceCard, Services, showcas
           }
           {
             Services && <Link target="_blanck" href={Services} className='title-link'>
-              <TitleSm title={data.title} />
+              <TitleSm title={data.title} /> 
             </Link>
           }
           {
@@ -33,9 +33,10 @@ export const Card = ({ data, caption, show, path, serviceCard, Services, showcas
             )
           }
           {caption && (
-            <Link href={serviceCard}>
-              {caption} <HiOutlineArrowRight className='link-icon' />
-            </Link>
+            // <Link href={serviceCard}>
+              // {caption} <HiOutlineArrowRight className='link-icon' />
+            // </Link>
+            <></>
           )}
           <div className='flex'>
             <span> {data.catgeory} </span> {data.date && <span> / {data.date}</span>}

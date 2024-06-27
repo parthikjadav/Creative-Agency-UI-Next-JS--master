@@ -19,9 +19,9 @@ const ShowCase = () => {
             ))}
           </div>
           <div className='card links'>
-            <Link href='/'>
+            {/* <Link href='/'>
               VIEW ALL CASES <HiOutlineArrowRight className='link-icon' />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

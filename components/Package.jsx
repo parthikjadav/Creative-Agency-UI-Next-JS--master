@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import GoogleAdsDetails from './Services/GoogleAdsDetails'
 import Testimonial from './Testimonial'
+import Pricing from '@/sections/Pricing'
 
 const Package = () => {
   return (
@@ -9,6 +10,7 @@ const Package = () => {
           <div className='section-title pt-20'>
               PACKAGES
           </div>
+          <Pricing/>
           <div className='sub-text'>
               Monthly Package Lead Generation Price Plans
           </div>
