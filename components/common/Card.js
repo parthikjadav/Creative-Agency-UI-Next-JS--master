@@ -3,7 +3,6 @@ import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
 
 export const Card = ({ data, caption, show, path, serviceCard, Services, showcase, serviseText }) => {
-  console.log("dhgs", showcase);
   return (
     <>
       <div className='card'>
