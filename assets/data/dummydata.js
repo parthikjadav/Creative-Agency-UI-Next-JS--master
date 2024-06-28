@@ -109,19 +109,19 @@ export const expertise = [
   {
     id: 2,
     title: "Digital Marketing",
-    cover: "https://img.freepik.com/free-photo/marketing-strategy-connting-digital-devices-concept_53876-23053.jpg?t=st=1718375301~exp=1718378901~hmac=ea03bf008700d87fedb6aab78750ce4d2124ad07501d8763bebc75e69377a231&w=996",
+    cover: "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
     title: "E-Commerce",
-    cover: "https://img.freepik.com/free-photo/online-purchasing-payment-e-commerce-banking_53876-127604.jpg?t=st=1718375669~exp=1718379269~hmac=f4ca77061c09e4a7bbbe42d41977378db9c2d20aa18706d7257db292a877d4f9&w=1060",
+    cover: "https://images.pexels.com/photos/16052344/pexels-photo-16052344/free-photo-of-photo-of-a-hand-holding-a-phone-with-a-delivery-app-on-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
     title: "Branding & Creative Services",
-    cover: "https://img.freepik.com/free-psd/indoor-wall-signage-mockup_47987-18584.jpg?w=996&t=st=1718375243~exp=1718375843~hmac=ce7811a0adf56264ccc0cef721747438a6008e50ea8098d9f9800ce823ca0dd6",
+    cover: "https://images.pexels.com/photos/7598024/pexels-photo-7598024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
 ]

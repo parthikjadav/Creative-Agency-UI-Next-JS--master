@@ -3,6 +3,7 @@ import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
 
 export const Card = ({ data, caption, show, path, serviceCard, Services, showcase, serviseText }) => {
+  console.log("dhgs", showcase);
   return (
     <>
       <div className='card'>
@@ -15,6 +16,7 @@ export const Card = ({ data, caption, show, path, serviceCard, Services, showcas
               <TitleSm title={data.title} />
             </Link>
           }
+
           {
             showcase && <a target="_blanck" href={data.website} className='title-link'>
               <TitleSm title={data.title} />
@@ -22,14 +24,16 @@ export const Card = ({ data, caption, show, path, serviceCard, Services, showcas
           }
           {
             Services && <Link target="_blanck" href={Services} className='title-link'>
-              <TitleSm title={data.title} /> 
+              <TitleSm title={data.title} />
             </Link>
           }
           {
             serviceCard && (
-              <Link href={serviceCard} className='title-link'>
+              // <Link href={serviceCard} className='title-link'>
+              <span className="title-link">
                 <TitleSm title={data.title} />
-              </Link>
+              </span>
+              // </Link>
             )
           }
           {caption && (

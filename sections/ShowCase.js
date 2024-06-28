@@ -17,7 +17,7 @@ const ShowCase = () => {
           <br />
           <div className='grid-3'>
             {showcase.map((item) => (
-              <Card data={item} showcase={"/"} key={item.id} caption={item.post} />
+            <Card data={item} showcase={true} key={item.id} caption={item.post} />
             ))}
           </div>
           {/* <div className='py btn'>
