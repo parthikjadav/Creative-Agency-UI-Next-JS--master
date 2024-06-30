@@ -198,7 +198,7 @@ export const showcase = [
     title: "Nexus",
     cover: "https://i.pinimg.com/736x/c8/66/8a/c8668a5c48f1d18d795af4431a4a414a.jpg",
     catgeory: "BRANDING	",
-    website: "https://cocolyze.com/"
+    website: "https://nexus.hexagon.com/"
   },
   {
     id: 5,
@@ -212,7 +212,7 @@ export const showcase = [
     title: "Humanastudio",
     cover: "https://i.pinimg.com/736x/e7/12/6a/e7126a23423963e4667f92e1af82670e.jpg",
     catgeory: "WEBSITES	",
-    website: ""
+    website: "https://www.humanastudio.com/"
   },
   {
     id: 7,
