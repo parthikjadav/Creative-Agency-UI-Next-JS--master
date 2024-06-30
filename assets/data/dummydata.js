@@ -3,6 +3,15 @@ import { TfiRulerPencil } from "react-icons/tfi"
 import { VscFileSubmodule } from "react-icons/vsc"
 import { BiUser } from "react-icons/bi"
 
+export const sitemap = [
+  "/",
+  "/agency",
+  "/services",
+  "/showcase",
+  "/pricing",
+  "/contact"
+]
+
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
@@ -166,7 +175,7 @@ export const showcase = [
   {
     id: 1,
     title: "Sharlee",
-    cover: "https://canadagoonline.com/img/portfolio/p-1.jpg",
+    cover: "https://i.pinimg.com/736x/ee/e9/62/eee9626dc3fd829f67a2e1723848eb25.jpg",
     catgeory: "Web",
     website: "https://itssharl.ee/"
   },
@@ -174,48 +183,48 @@ export const showcase = [
     id: 2,
     title: "act.",
     catgeory: "WEBSITE",
-    cover: "https://canadagoonline.com/img/portfolio/p-2.jpg",
+    cover: "https://i.pinimg.com/736x/c9/25/af/c925afdf5c1cc879491936df051b8b07.jpg",
     website: "https://www.act-responsible.org/"
   },
   {
     id: 3,
     title: "cocolyze",
-    cover: "https://canadagoonline.com/img/portfolio/p-4.jpg",
+    cover: "https://i.pinimg.com/736x/18/e2/da/18e2da2329d1f4bd27a40422a6d3dd04.jpg",
     catgeory: "WEBSITE",
     website: "https://cocolyze.com/"
   },
   {
     id: 4,
     title: "Nexus",
-    cover: "https://canadagoonline.com/img/portfolio/p-6.jpg",
+    cover: "https://i.pinimg.com/736x/c8/66/8a/c8668a5c48f1d18d795af4431a4a414a.jpg",
     catgeory: "BRANDING	",
     website: "https://cocolyze.com/"
   },
   {
     id: 5,
-    title: "Resorts",
-    cover: "https://canadagoonline.com/img/portfolio/p-7.png",
+    title: "Auros",
+    cover: "https://www.bornfight.studio/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fbornfight-studio%2Fimage%2Fupload%2Fv1710925148%2Fauros_desktop_01_b9e416bf55.png&w=1920&q=75",
     catgeory: "BRANDING	",
-    website: "https://rwlasvegas.expedia.com/"
+    website: "https://www.auros.global/"
   },
   {
     id: 6,
     title: "Humanastudio",
-    cover: "https://canadagoonline.com/img/portfolio/p-9.jpg",
+    cover: "https://i.pinimg.com/736x/e7/12/6a/e7126a23423963e4667f92e1af82670e.jpg",
     catgeory: "WEBSITES	",
     website: ""
   },
   {
     id: 7,
-    title: "bornfight",
-    cover: "https://canadagoonline.com/img/portfolio/p-10.jpeg",
+    title: "PET PAK",
+    cover: "https://www.bornfight.studio/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fbornfight-studio%2Fimage%2Fupload%2Fv1661976233%2Fpetpak_desktop_2_1_31ee0fdef3.jpg&w=1920&q=75",
     catgeory: "WEB 3.0",
-    website: "https://www.bornfight.studio/"
+    website: "https://petpak.si/"
   },
   {
     id: 8,
     title: "Studiofreight",
-    cover: "https://canadagoonline.com/img/portfolio/p-11.jpg",
+    cover: "https://i.pinimg.com/736x/3f/83/75/3f837500ceb2658894f185d9b8e2d14b.jpg",
     catgeory: "WEB APP",
     website: "https://repeat.studiofreight.com/"
   },
@@ -229,21 +238,21 @@ export const showcase = [
   {
     id: 10,
     title: "Mee4u",
-    cover: "https://canadagoonline.com/img/mee4u.png",
+    cover: "https://i.pinimg.com/736x/01/4e/37/014e37eab0fbca6017e5a01936f7e55f.jpg",
     catgeory: "WEBSITES",
     website: "https://mee4u.com/"
   },
   {
     id: 11,
     title: "Forever Young Dentures",
-    cover: "https://canadagoonline.com/img/forever.png",
+    cover: "https://i.pinimg.com/736x/96/9f/68/969f6841b97789983117bfb149ae43b8.jpg",
     catgeory: "MARKETING",
     website: "https://foreveryoungdentures.com/"
   },
   {
     id: 12,
     title: "Moving Hub",
-    cover: "https://canadagoonline.com/img/movinghub.png",
+    cover: "https://i.pinimg.com/736x/54/d0/f3/54d0f3ab8c94428c575fc717090d9880.jpg",
     catgeory: "WEBSITES",
     website: "https://movinghub.live/"
   },
