@@ -83,7 +83,7 @@ const AdTypes = () => {
                                 <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                                 </div>
-                                <div class="bg-green-600 flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center  text-white relative z-10 title-font font-medium text-sm">{ind+1}</div>
+                                <div class="bg-green-600 flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center  text-white relative z-10 title-font font-medium text-sm">{ind+91}</div>
                                 <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                                     {/* <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
                                         <svg fill="none" stroke="green" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">

@@ -13,8 +13,8 @@ const Contact = () => {
     name: "",
     email: "",
     projectType: "",
-    phone:"",
-    projectDetails:""
+    phone: "",
+    projectDetails: ""
   });
 
   const [status, setStatus] = useState("");
@@ -45,7 +45,7 @@ const Contact = () => {
     Object.keys(formData).forEach((key) => {
       submissionData.append(key, formData[key]);
     });
-    submissionData.append("access_key", "dd8e9e5e-70db-4979-8196-b2c818fe82a9");
+    submissionData.append("access_key", "9702021e-e77d-4306-9743-7b0ee93e7e5f");
 
     const object = Object.fromEntries(submissionData);
     const json = JSON.stringify(object);
@@ -80,12 +80,12 @@ const Contact = () => {
               <div className="contact-deatils">
                 <div className="box">
                   <FiHeadphones size={30} className="icons" />
-                  <h3>+1 647 914 3529</h3>
+                  <h3>+91 8849547853</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className="box">
                   <FiHelpCircle size={30} className="icons" />
-                  <h3>info@canadagoonline.com</h3>
+                  <h3>jadavparthik000@gmail.com</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
               </div>
@@ -132,7 +132,7 @@ const Contact = () => {
                       className="input-contact"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+1 888-5449455"
+                      placeholder="+91 8849547853"
                       required
                     />
                   </div>
@@ -183,11 +183,11 @@ const Contact = () => {
                     required
                   ></textarea>
                 </div>
-                <p style={{padding:"20px 0px"}} className="">
-                {status==="loading"?<p>Loading...</p>:null}
-                {status === "success" ? <p className="Success">Success!</p>:null}
-                {status === "error" ? <p className="Error">Error!</p>:null}
-                {status==="unfilled"?<p className="Error">Please fill out all fields</p>:null}
+                <p style={{ padding: "20px 0px" }} className="">
+                  {status === "loading" ? <p>Loading...</p> : null}
+                  {status === "success" ? <p className="Success">Success!</p> : null}
+                  {status === "error" ? <p className="Error">Error!</p> : null}
+                  {status === "unfilled" ? <p className="Error">Please fill out all fields</p> : null}
                 </p>
                 <button className="button-primary" type="submit">
                   Submit

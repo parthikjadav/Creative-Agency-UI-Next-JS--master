@@ -21,9 +21,9 @@ const Footer = () => {
               <br />
 
               {/* <div>Phone:</div> */}
-              <div>+1 647 914 3529</div>
+              <div>+91 8849547853</div>
               {/* <div>Email:</div> */}
-              <div>info@canadagoonline.com</div>
+              <div>jadavparthik000@gmail.com</div>
               <br />
               <Link href='/contact'>
                 <button className='button-primary'>Request for quote</button>
