@@ -1,9 +1,5 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://canadagoonline.com
-
 # Sitemaps
-Sitemap: https://canadagoonline.com/sitemap.xml
+Sitemap: https://cgoweb.netlify.app/api/sitemap
